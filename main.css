@@ -1,0 +1,43 @@
+/* Basic styles for the body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Navigation Bar */
+
+
+/* Main content sections */
+
+
+/* Home section */
+
+
+/* About section - relative positioning */
+#about {
+  position: relative;
+}
+
+/* Services section */
+ #services {
+  position: relative;
+}
+
+/* Service box - absolute positioning */
+.service-box {
+  position: absolute;
+}
+/* Contact section */
+#contact {
+  position: ;
+}
+
+/* Footer - fixed positioning */
+.foot {
+  position: fixed;
+}
+
+/* Sticky header  */
+.header {
+  position: sticky;
+}

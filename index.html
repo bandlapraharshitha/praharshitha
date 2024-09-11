@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Jasmine Spec Runner v2.8.0</title>
+
+  <!-- <link rel="shortcut icon" type="image/png" href="jasmine/jasmine-2.8.0/face.png"> -->
+  <link rel="stylesheet" href="jasmine/jasmine-2.8.0/jasmine.css">
+  <link rel="stylesheet" href="main.css">
+
+  <script src="jasmine/jasmine-2.8.0/jasmine.js"></script>
+  <script src="jasmine/jasmine-2.8.0/jasmine-html.js"></script>
+  <script src="jasmine/jasmine-2.8.0/boot.js"></script>
+
+  <!-- include source files here... -->
+
+  <script src="src/app.js"></script>
+
+  <!-- include spec files here... -->
+  <script src="tests/FunctionsTest.js"></script>
+
+</head>
+
+<body>
+  <header class="header">
+      <!-- Uncomment the Nav bar and add various positioning to its different elements -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <!-- Add positioning to the following items in the main.css file -->
+    <section id="home">
+        <h1>Welcome to Our Website</h1>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>This section is positioned relatively.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-box">
+            <p>This box is positioned absolutely within the services section.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>This footer is fixed at the bottom of the page.</p>
+    </section>
+    <footer class="foot">
+      <p>Footer content goes here.</p>
+  </footer>
+</main>
+
+</body>
+
+</html>
